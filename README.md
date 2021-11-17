@@ -1,10 +1,10 @@
 # spark-neo4j
 My first test: Build a data graph model from following two files:
 - speech_nodes.csv file contains words (good, pleasant, glad, person,...) and their corresponding parts of speech (noun, adjective), 
-- and the speech_edges.csv file contains connections between them.
+- and the speech_edges.csv file contains connections between nodes.
 
 
-# I/ How to install and launch the code (import scripts, etc.)
+# I/ How to install and launch the code
 
 # I.1 Install steps to launch Spark and run code written in Jupyter Notebook module of Anaconda in Windows
   1. Install Java 8 (jre1.8.0_291, jdk-16.0.1)
@@ -17,7 +17,7 @@ My first test: Build a data graph model from following two files:
   1. Install Neo4j Desktop (4.3)
   2. Launch Neo4j Desktop and create a blank database, then start this database to connect Spark 
   
-# II/ What is the property graph model (the transformation you made)
+# II/ What is the property graph model
 Display the property graph model as follows:
   1. Launch Jupyter Notebook from command line of Anaconda Prompt (miniconda3) 
   2. Open "neospark-demo.ipynb" file and run.
@@ -26,5 +26,5 @@ Display the property graph model as follows:
       "MATCH p=()-[r:with]->() RETURN p LIMIT 100"
   In Neo4j Browser interface, at Neo4j$ line type following command "MATCH p=()-[r:with]->() RETURN p LIMIT 100" to see 67 nodes and 100 relationships of the graph
 
-# III/ What are the treatments in graphX you've done (e.g: search for triangle, etc.) and why
+# III/ What are the treatments in graphX 
 This test will continue using PageRank algorithm of GraphX to get the importance of each node.
