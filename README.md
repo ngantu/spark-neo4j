@@ -1,7 +1,7 @@
 # spark-neo4j
 My first test: Build a data graph model from following two files:
-- speech_nodes.csv file contains words (good, pleasant, glad, person,...) and their corresponding parts of speech (noun, adjective), 
-- and the speech_edges.csv file contains connections between nodes.
+- speech_nodes.csv file (423 rows) contains words (good, pleasant, glad, person,...) and their corresponding parts of speech (noun, adjective).
+- speech_edges.csv file (111 rows) contains connections between nodes.
 
 
 # I/ How to install and launch the code
