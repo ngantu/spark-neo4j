@@ -22,9 +22,8 @@ Display the property graph model as follows:
   1. Launch Jupyter Notebook from command line of Anaconda Prompt (miniconda3) 
   2. Open "neospark-demo.ipynb" file and run.
   3. After above step, then launch Neo4j Desktop
-  4. The data graph model can be seen through Neo4j Browser of Neo4j Desktop application or the link http://localhost:7474/browser/ with the Cypher query
+  4. Open Neo4j Browser of Neo4j Desktop application or the link http://localhost:7474/browser/ and type the following Cypher query at the Neo4j$ line to show the data graph model with 67 nodes and 100 relationships
       "MATCH p=()-[r:with]->() RETURN p LIMIT 100"
-  In Neo4j Browser interface, at Neo4j$ line type following command "MATCH p=()-[r:with]->() RETURN p LIMIT 100" to see 67 nodes and 100 relationships of the graph
-
+      
 # III/ What are the treatments in graphX 
 This test will continue using PageRank algorithm of GraphX to get the importance of each node.
