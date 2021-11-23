@@ -12,6 +12,7 @@ My first test: Build a data graph model from following two files:
   3. Install Anaconda (for python)
   4. Install Apache Spark (spark-3.0.2-bin-hadoop3.2)
   5. Configure Environment Variables (JAVA_HOME, SPARK_HOME, HADOOP_HOME)
+  6. Install the libraries such as: graphframes, pandas, neo4j, py2neo 
   
 # * Create a blank database in Neo4j Desktop 
   1. Install Neo4j Desktop (4.3)
