@@ -6,14 +6,14 @@ My first test: Build a data graph model from following two files:
 
 # I/ How to install and launch the code
 
-# I.1 Install steps to launch Spark and run code written in Jupyter Notebook module of Anaconda in Windows
+# * Install steps to launch Spark and run code written in Jupyter Notebook module of Anaconda in Windows
   1. Install Java 8 (jre1.8.0_291, jdk-16.0.1)
   2. Install Python 3.8.5
   3. Install Anaconda (for python)
   4. Install Apache Spark (spark-3.0.2-bin-hadoop3.2)
   5. Configure Environment Variables (JAVA_HOME, SPARK_HOME, HADOOP_HOME)
   
-# I.2 Create a blank database in Neo4j Desktop 
+# * Create a blank database in Neo4j Desktop 
   1. Install Neo4j Desktop (4.3)
   2. Launch Neo4j Desktop and create a blank database, then start this database to connect Spark 
   
