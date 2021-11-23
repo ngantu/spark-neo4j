@@ -18,6 +18,7 @@ My first test: Build a data graph model from following two files:
   2. Launch Neo4j Desktop and create a blank database, then start this database to connect Spark 
   
 # II/ What is the property graph model
+The demo graph data model show the relationships between some nouns and adjectives in English.
 Display the property graph model as follows:
   1. Launch Jupyter Notebook from command line of Anaconda Prompt (miniconda3) 
   2. Open "neospark-demo.ipynb" file and run.
