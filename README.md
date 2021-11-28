@@ -28,6 +28,6 @@ Display the property graph model as follows:
       "MATCH p=()-[r:with]->() RETURN p LIMIT 100"
       
 # III/ What are the treatments in graphX 
-File PageRank-GraphX.py implements PageRank algorithm of GraphX to get the importance of each node.
-Run this file in PySpark environment
+- File PageRank-GraphX.py implements PageRank algorithm of GraphX to get the importance of each node.
+- Run codes in PySpark environment
 
