@@ -28,7 +28,7 @@ Display the property graph model as follows:
       "MATCH p=()-[r:with]->() RETURN p LIMIT 100"
       
 # III/ What are the treatments in graphX 
--Two ways to get the importance of each node from PageRank algorithm of GraphX 
+- Two ways to get the importance of each node from PageRank algorithm of GraphX 
 1. File PageRank-GraphX.py  --> read csv files into Spark's DataFrame and run PageRank algorithm
 2. File PageRank-GraphX-Neo4j.py --> use Cypher query to loads dataset for nodes and relationship into Spark's DataFrame and run PageRank algorithm  
 - Run codes in PySpark environment
