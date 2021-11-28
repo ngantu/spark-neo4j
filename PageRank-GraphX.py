@@ -1,11 +1,4 @@
 ## Use PageRank algorithm of GraphX to get the importance of each node
-#import libraries
-import findspark
-findspark.init()
-findspark.find()
-import pyspark
-findspark.find()
-from graphframes import GraphFrame
 from graphframes import *
 
 # Read data from csv
