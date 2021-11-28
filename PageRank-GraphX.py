@@ -17,3 +17,8 @@ g = GraphFrame(nodes_df, edges_df)
 # Run PageRank algorithm, and show the importance of each node.
 results = g.pageRank(resetProbability=0.01, maxIter=20)
 results.vertices.select("id", "pagerank").show()
+
+# Sort the rank and show top 20 rows 
+from pyspark.sql.functions import *
+results.vertices.select("id", "type", "pagerank").orderBy(desc("pagerank")).show()
+
