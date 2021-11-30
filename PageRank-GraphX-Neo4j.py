@@ -42,7 +42,7 @@ g = GraphFrame(nodes_df, edges_df)
 results = g.pageRank(resetProbability=0.01, maxIter=20)
 results.vertices.select("id", "pagerank").show()
 
-#//Sortby ranking and show top 20 rows 
+# Sortby ranking and show top 20 rows 
 from pyspark.sql.functions import *
 results.vertices.select("id", "pagerank").orderBy(desc("pagerank")).show()
 
